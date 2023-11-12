@@ -1,0 +1,126 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:'poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image:url("image/background.jpg");
+    background-size:cover;
+}
+#nav{   
+    display:flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+#nav .btn{
+    margin-right: 2vw;
+    flex-basis:1%;
+    padding:5px 5px;
+    border:0;
+    outline:0;
+    font-size:20px;
+    border-radius: 5px;
+    background:#07eec4;
+    color:white;
+    font-weight: 500;
+    cursor:pointer;
+    transition: 0.3s;
+    display:flex;
+    font-weight: 400;
+    height: 2em;
+    justify-content: center;
+    align-items: center;
+}
+#nav button:hover{
+     transform: scale(1.05);
+ }
+ #logo{
+    color:white;
+    padding: 1em;
+    position: fixed;
+    left:1.5em;
+    
+    font-size: 25px;
+    font-weight:400;
+    font-family: 'P';
+    cursor:pointer;
+    text-decoration: none;
+    color:white;
+    transition:0.5s ease ;
+    
+}
+#logo:hover{
+    transform:scale(1.05);
+}
+.btn i{
+     /* width:20px;
+     margin-right:10px;     */
+     padding:10px;
+    
+ }
+ #nav a{
+    
+    background-color:white;
+    color:rgb(78, 78, 78);
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 400;
+}
+#nav a:hover{
+    transform : scale(1.05);
+    background-color: #07eec4;
+    color:rgb(253, 253, 253);
+}
+
+.content form button{
+    font-size:10px;
+    padding:5px 20px;
+    background:#07eec4 ;
+    border:none;
+}
+
+.container{
+    width:100%;
+    padding:5px;
+    min-height:20vh;
+    background-size:cover;
+}
+.padding{
+    margin-right: 20px;
+    margin-top: 2em;
+}
+.content{
+    margin-top: 10%;
+    margin-left: 3%;
+    color:white;
+    max-width:700px;
+}
+.content h1{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 70px;
+    margin-bottom: 20px;
+}
+.content form{
+    display:flex;
+    align-items:center;
+    background-color: white;
+    border-radius:5px;
+    padding:10px;
+    margin-top:30px;
+}
+.content form input{
+    border:0;
+    outline:0;
+    width:100%;
+    font-size:16px;
+    padding-left:10px;
+}
+
+
+
